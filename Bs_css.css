@@ -34,7 +34,7 @@ img {
 a {
     text-decoration-style: wavy;
     color: black;
-    font-size: 22px;
+    font-size: 22vw;
     font-family: "Besom";
 }
 
@@ -45,7 +45,7 @@ a:hover {
 h1 {
     font-family: "Besom";
     font-weight: bold;
-    font-size: 56px;
+    font-size: 56vw;
 }
 
 .brand {
