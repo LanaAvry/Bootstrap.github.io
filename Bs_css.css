@@ -10,6 +10,8 @@ body {
     overflow-x:hidden;  /*для горизонтального прокручивания*/
     font-family: "Besom Regular";
     color: black;
+    background: url("https://raw.githubusercontent.com/LanaAvry/Bootstrap.github.io/gh-pages/Red%20smog.jpg" class="img-responsive") no-repeat center center fixed;
+    background-size: cover;
 }
 
 img {
@@ -52,6 +54,7 @@ h1 {
 }
 
 .brand {
+    position: absolute;
     width: 30%;
     border: 2px solid black;
     text-align: center;
