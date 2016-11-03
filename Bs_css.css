@@ -3,6 +3,13 @@
     src: url(Besom.ttf);
 }
 
+@media screen and (max-width: 600px) {
+    a {font-size: 10px;}
+    .top_bar li {padding: 3px 10px;}
+    h1 {font-size: 14px;}
+    .brand{width:15%;}
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +39,6 @@ img {
 }
 
 a {
-    text-decoration-style: wavy;
     color: black;
     font-size: 22px;
     font-family: "Besom Regular";
@@ -50,8 +56,10 @@ h1 {
 
 .brand {
     position: absolute;
+    top: 30%;
     width: 30%;
     border: 2px solid black;
     text-align: center;
+    display: block;
     margin: 0 auto;
 }
