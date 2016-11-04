@@ -6,8 +6,7 @@
 @media screen and (max-width: 600px) {
     a {font-size: 10px;}
     .top_bar li {padding: 3px 10px;}
-    h1 {font-size: 14px;}
-    .brand{width:15%;}
+    .brand{font-size: 14px;width:15%;}
 }
 
 body {
@@ -48,13 +47,11 @@ a:hover {
     color: white;
 }
 
-h1 {
+
+.brand {
     font-family: "Besom Regular";
     font-weight: bold; 
     font-size: 56px;
-}
-
-.brand {
     position: absolute;
     top: 30%;
     width: 30%;
