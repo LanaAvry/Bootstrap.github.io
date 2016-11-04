@@ -59,7 +59,7 @@ a:hover {
     color: black;
 }
 
-.footage {
+.footer {
     width: 100%;
     height: 4rem;
     background-color: black;
@@ -70,10 +70,10 @@ a:hover {
     bottom: 0;
     position: fixed;
     text-align: center;
-    line-height: 4rem;
+    line-height: 3rem;
 }
 
-.foot-link {
+.footer-link {
     color: darkred;
     font-weight: bold;
   
@@ -81,11 +81,11 @@ a:hover {
 @media screen and (max-width: 768px) {
     .top_bar {display:inline-block;text-align:center;margin-right:0;margin-left:0;}
    .brand{font-size:2.5rem;width:12rem;height:2.5rem;line-height:2.5rem;margin:0 auto;margin-top:14rem;}
-   a {font-size:1.5rem;}
+   a {font-size:2rem;}
 }
 
 @media screen and (max-width: 320px) {
     .top_bar {display:inline-block;text-align:center;margin-right:0;margin-left:0;padding-right:1rem;}
    .brand{font-size:2.5rem;width:12rem;height:2.5rem;line-height:2.5rem;margin:0 auto;margin-top:14rem;}
-   a {font-size:1.5rem;}
+   a {font-size:2rem;}
 }
