@@ -59,8 +59,28 @@ a:hover {
     color: white;
 }
 
-@media screen and (max-width: 767px) {
-    .top_bar {display:inline-block;text-align:center;margin-right:0;margin-left:0;}
-   a {font-size:1.5rem;}
+.footage {
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.foot-link {
+    color: darkred;
+    font-weight: bold;
+  
+}
+
+@media screen and (max-width: 768px) {
+   .top_bar {display:inline-block;text-align:center;margin-right:0;margin-left:0;}
    .brand{font-size:2.5rem;width:12rem;height:2.5rem;line-height:2.5rem;margin:0 auto;margin-top:14rem;}
+   a {font-size:1.5rem;}
 }
