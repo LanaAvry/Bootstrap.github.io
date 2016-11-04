@@ -59,7 +59,7 @@ a:hover {
     color: black;
 }
 
-.footer_bar {
+.footer-bar {
     width: 100%;
     height: 4rem;
     background-color: black;
@@ -70,12 +70,13 @@ a:hover {
     bottom: 0;
     position: fixed;
     text-align: center;
+    line-height: 4rem;
 }
 
 .footer-link {
     color: darkred;
     font-weight: bold;
-    line-height: 4rem;
+   
 }
 
 @media screen and (max-width: 768px) {
