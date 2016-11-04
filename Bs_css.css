@@ -3,11 +3,6 @@
     src: url(Besom.ttf);
 }
 
-@media screen and (max-width: 600px) {
-    a {font-size: 10px;}
-    .top_bar li {padding: 3px 10px;}
-    .brand{font-size: 14px;width:15%;}
-}
 
 body {
     margin: 0;
@@ -16,6 +11,11 @@ body {
     overflow-x:hidden;  /*для горизонтального прокручивания*/
     font-family: "Besom Regular";
     color: black;
+    background-image: url("https://raw.githubusercontent.com/LanaAvry/Bootstrap.github.io/gh-pages/Red%20smog.jpg");  
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 img {
@@ -24,7 +24,7 @@ img {
 
 .top_bar {
     width: 100%;
-    height: 5%;
+    height: 3rem;
     background-color: darkred;
     opacity: 0.6;
     border-bottom: 1px solid black;
@@ -34,12 +34,14 @@ img {
 
 .top_bar li {
     display: inline-block;
-    padding: 5px 30px;    
+    padding-right: 2.875rem;
+    line-height: 3rem;
+
 }
 
 a {
     color: black;
-    font-size: 22px;
+    font-size: 2rem;
     font-family: "Besom Regular";
 }
 
@@ -47,16 +49,22 @@ a:hover {
     color: white;
 }
 
-
 .brand {
     font-family: "Besom Regular";
     font-weight: bold; 
-    font-size: 56px;
-    position: absolute;
-    top: 30%;
-    width: 30%;
+    font-size: 4.5rem;
+    width: 25rem;
+    height: 5rem;
+    line-height: 5rem;
     border: 2px solid black;
     text-align: center;
     display: block;
     margin: 0 auto;
+    margin-top: 18.8rem;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+   a {font-size:1.5rem;}
+   .brand{font-size:2.5rem;width:12rem;height:2.5rem;line-height:2.5rem;margin:0 auto;margin-top:14rem;}
 }
