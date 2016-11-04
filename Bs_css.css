@@ -79,9 +79,13 @@ a:hover {
   
 }
 
+
+
 @media screen and (max-width: 768px) {
-    body{background-size:100% auto;}
-    .top_bar {display:inline-block;text-align:center;margin-right:0;margin-left:0;}
+   .top_bar {display:inline-block;text-align:center;margin-right:0;margin-left:0;}
    .brand{font-size:2.5rem;width:12rem;height:2.5rem;line-height:2.5rem;margin:0 auto;margin-top:14rem;}
    a {font-size:1.5rem;}
+   .bgimage {background-image: url("https://raw.githubusercontent.com/LanaAvry/Bootstrap.github.io/gh-pages/Red%20smog.jpg"); 
+    background-size: 100%;}
+    .bgimage-inside {padding-top: 37.36%; /* this is actually (426/1140)*100 */}
 }
