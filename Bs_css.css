@@ -79,7 +79,7 @@ a:hover {
   
 }
 @media screen and (max-width: 768px) {
-    body{background-size:cover;}
+    body{background: 50% 50% cover fixed;}
    .top_bar {display:inline-block;text-align:center;margin-right:0;margin-left:0;}
    .brand{font-size:2.5rem;width:12rem;height:2.5rem;line-height:2.5rem;margin:0 auto;margin-top:14rem;}
    a {font-size:1.5rem;}
