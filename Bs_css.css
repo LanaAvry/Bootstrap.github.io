@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Blacktroops Rough";
-    src: url(Blacktroops Rough.ttf);
+    src: url("Blacktroops Rough.ttf");
 }
 
 body {
@@ -73,17 +73,18 @@ a:hover {
 }
 
 .racing-cars {
-    font-family: "Besom Regular";
-    font-size: 13rem;
+    font-family: "Blacktroops Rough";
+    font-size: 9.5rem;
     color: white;
     line-height: 10rem;
 }
 
 .cars {
-    font-size: 17rem;
+    font-size: 14rem;
     color: black;
-    text-decoration: underline overline;
+    text-decoration: underline;
 }
+
 .fox {
     font-size: 3.5rem;
     color: black;
