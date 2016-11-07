@@ -129,11 +129,11 @@ a:hover {
 @media screen and (max-width: 768px) {
     .top-menu li {padding-right: 1.5rem;}
     a {font-size:2rem;}
-    .left-side{height:255px;}
+    .left-side{height:245px;}
     .racing-cars{font-size:56px;line-height:35px;}
     .cars{font-size:60px;}
     .fox{font-size:28px;}
-    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:50% 50%;}
+    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
     .content{border-right:5px dashed black;}
 
 }
@@ -143,11 +143,11 @@ a:hover {
     .top-menu {width:100%;height:2.5rem;}
     .top-menu li {padding-right:15px;line-height:2.5rem;}
      a:not(.footer-link) {font-size:1.5rem;}
-    .left-side{height:255px;}
+    .left-side{height:245px;}
     .racing-cars{font-size:56px;line-height:35px;}
     .cars{font-size:60px;}
     .fox{font-size:28px;}
-    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:50% 50%;}
+    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
     .content{border-right:5px dashed black;}
 }
 
