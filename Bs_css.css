@@ -133,7 +133,7 @@ a:hover {
     .racing-cars{font-size:56px;line-height:35px;}
     .cars{font-size:60px;}
     .fox{font-size:28px;}
-    .right-sidebar{border-top:5px dashed black;border-left:none;background-size:cover;}
+    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:50% 50%;}
     .content{border-right:5px dashed black;}
 
 }
@@ -147,7 +147,7 @@ a:hover {
     .racing-cars{font-size:56px;line-height:35px;}
     .cars{font-size:60px;}
     .fox{font-size:28px;}
-    .right-sidebar{border-top:5px dashed black;border-left:none;background-size:cover;}
+    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:50% 50%;}
     .content{border-right:5px dashed black;}
 }
 
