@@ -57,11 +57,6 @@ a:hover {
     color: white;
 }
 
-.left-side {
-    height: 55rem;
-    background-color: darkred;
-}
-
 .right-sidebar {
     height: 55rem;
     background-image: url("https://raw.githubusercontent.com/LanaAvry/Bootstrap.github.io/gh-pages/Wade's%20car.jpg");
@@ -71,11 +66,18 @@ a:hover {
     border-left: 5px dashed black;
 }
 
+.left-side {
+    height: 55rem;
+    background-color: darkred;
+    text-align: center;
+}
+
 .racing-cars {
     font-family: "Besom Regular";
-    font-size: 14rem;
+    font-size: 13rem;
     color: white;
     line-height: 10rem;
+
 }
 
 .cars {
@@ -84,7 +86,7 @@ a:hover {
     text-decoration: underline overline;
 }
 .fox {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: black;
     font-family: "Besom Regular";
     line-height: 3rem;
