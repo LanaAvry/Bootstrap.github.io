@@ -130,8 +130,8 @@ a:hover {
     .top-menu li {padding-right: 1.5rem;}
     a {font-size:2rem;}
     .left-side{height:300px;}
-    .racing-cars{font-size:54px;line-height:30px;}
-    .cars{font-size:58px;}
+    .racing-cars{font-size:56px;line-height:35px;}
+    .cars{font-size:60px;}
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:left center;}
     .content{border-right:5px dashed black;}
@@ -144,8 +144,8 @@ a:hover {
     .top-menu li {padding-right:15px;line-height:2.5rem;}
      a:not(.footer-link) {font-size:1.5rem;}
     .left-side{height:300px;}
-    .racing-cars{font-size:54px;line-height:30px;}
-    .cars{font-size:58px;}
+    .racing-cars{font-size:56px;line-height:35px;}
+    .cars{font-size:60px;}
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:left center;}
     .content{border-right:5px dashed black;}
