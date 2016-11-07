@@ -135,6 +135,7 @@ a:hover {
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
     .content{border-right:5px dashed black;}
+    h2{line-height:16px;text-align:center;}
 
 }
 
@@ -149,6 +150,7 @@ a:hover {
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
     .content{border-right:5px dashed black;}
+     h2{line-height:16px;text-align:center;}
 }
 
 
