@@ -149,10 +149,10 @@ a:hover {
     .cars{font-size:60px;}
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
-    .content{height:500px;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
+    .content{height:400px;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
     h2{line-height:20px;text-align:center;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
-    .left-video, .right-video{width:100%;height:70px;display:block; margin: 0 auto;}
+    .left-video, .right-video{width:100px;height:100px;display:block; margin: 0 auto;}
     .left-video{padding-top:25px;margin-bottom: 25px;}
 
 }
@@ -167,10 +167,10 @@ a:hover {
     .cars{font-size:60px;}
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
-    .content{height:500px;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
+    .content{height:400px;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
      h2{line-height:20px;text-align:center;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
-    .left-video, .right-video{width:70px;height:70px;display:block; margin: 0 auto;}
+    .left-video, .right-video{width:100px;height:100px;display:block; margin: 0 auto;}
     .left-video{padding-top:25px;margin-bottom: 25px;}
 }
 
