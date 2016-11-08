@@ -149,8 +149,9 @@ a:hover {
     .cars{font-size:60px;}
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
-    .content{height:160px;border-right:5px dashed black;}
+    .content{height:300px;border-right:5px dashed darkred;}
     h2{line-height:20px;text-align:center;}
+    .left-sidebar-2{height:200px;}
     .left-vedeo, .right-video{display:block; margin: 0 auto;}
 
 }
@@ -165,8 +166,9 @@ a:hover {
     .cars{font-size:60px;}
     .fox{font-size:28px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
-    .content{height:160px;border-right:5px dashed black;}
+    .content{height:300px;border-right:5px dashed darkred;}
      h2{line-height:20px;text-align:center;}
+     .left-sidebar-2{height:200px;}
       .left-vedeo, .right-video{display:block; margin: 0 auto;}
 }
 
