@@ -139,6 +139,7 @@ a:hover {
     .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
     h2{line-height:20px;text-align:center;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
+    form{display:block;margin: 0 auto;}
 }
 
 @media screen and (max-width: 320px) {
@@ -153,9 +154,8 @@ a:hover {
     .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
      h2{line-height:20px;text-align:center;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
+    form{display:block;margin: 0 auto;}
 }
-
-
 
 form {
     width: 310px;
@@ -241,5 +241,4 @@ input[type="checkbox"] {
     font-family: "Eczar";
     font-size: 16px;
     color: #ffffff;
-
 }
