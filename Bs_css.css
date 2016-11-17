@@ -128,34 +128,7 @@ a:hover {
    
 }
 
-
-@media screen and (max-width: 768px) {
-    .top-menu li {padding-right: 1.5rem;}
-    a {font-size:2rem;}
-    .left-sidebar-1{height:245px;}
-    .racing-cars{font-size:56px;line-height:55px;}
-    .cars{font-size:60px;}
-    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
-    .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
-    h2{line-height:20px;text-align:center;}
-    .left-sidebar-2{height:220px;border-top:5px solid black;}
-    form{display:block;margin: auto;}
-}
-
-@media screen and (max-width: 320px) {
-    body {min-height: 100vh;}
-    .top-menu {width:100%;height:2.5rem;}
-    .top-menu li {padding-right:15px;line-height:2.5rem;}
-     a:not(.footer-link) {font-size:1.5rem;}
-    .left-sidebar-1{height:245px;}
-    .racing-cars{font-size:56px;line-height:55px;}
-    .cars{font-size:60px;}
-    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
-    .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
-     h2{line-height:20px;text-align:center;}
-    .left-sidebar-2{height:220px;border-top:5px solid black;}
-    form{display:block;margin:auto;}
-}
+/*  /////////////////////////////      F O R M     /////////////////////////////////*/
 
 form {
     width: 310px;
