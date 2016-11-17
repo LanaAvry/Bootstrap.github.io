@@ -233,8 +233,8 @@ input[type="submit"]:hover {
 }
 
 input[type="checkbox"] {
-    display: inline-block;
-    text-align: center;
+   display: block;
+   margin: 0 auto;
 }
 
 .subscribe-new-member {
