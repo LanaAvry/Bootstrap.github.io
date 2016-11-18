@@ -14,9 +14,79 @@ body {
     width: 100%;
     overflow-x:hidden;  /*для горизонтального прокручивания*/
     color: black;
-    font-family: "Besom Regular";
+    font-family: "Source Sans Pro";
     
 }
+
+/* /////////////////////////// S W I P     B A R //////////////////////////*/
+
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  top: 20;
+  left: -200px;
+  transition: left .2s;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.hidden-menu-ticker {
+  display: none;
+}
+
+.btn-menu {
+  color: #fff;
+  background-color: darkred;
+  padding: 5px;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 3;
+  width: 25px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 5px;
+  background-color: #fff;
+  margin: 5px 0 0;
+  transition: all .1s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 10px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -10px;
+}
+
+/*/////////////////////////// M A I N    P A R T   O F    T H E  S I T E ///////////*/
 .head-block {
     width: 100%;
     height: 3rem;
@@ -50,7 +120,7 @@ p {
 a {
     color: black;
     font-size: 2rem;
-    font-family: "Besom Regular";
+    font-family: "Source Sans Pro";
 }
 
 a:hover {
@@ -63,6 +133,23 @@ a:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: white;
+    font-family: "Blacktroops Rough";
+}
+
+.bold-word {
+    color: darkred;
+    font-size: 40px;
+}
+
+.black-word {
+    color: black;
 }
 
 .left-sidebar-1 {
@@ -128,9 +215,11 @@ a:hover {
    
 }
 
-/*  /////////////////////////////      F O R M     /////////////////////////////////*/
 
+/* /////////////////////////// F O R M  //////////////////////////////////////////*/
 form {
+    display: inline-block;
+    float: right;
     width: 310px;
     margin: 0 auto;
     padding: 20px;
@@ -175,7 +264,6 @@ input[type="login"],
 input[type="email"],
 input[type="password"] {
     width: 95%;
-    height: 24px;
     margin-bottom: 10px;
     margin-left: 5px;
     padding: 2px 5px;
@@ -190,10 +278,9 @@ input[type="image"] {
 
 input[type="submit"] {
     display: inline-block;
-    float: right;
-    margin: 10px 5px;
+    margin: 5px 5px;
     padding: 6px 15px;
-    font-family: "Eczar";
+    font-family: "Source Sans Pro";
     font-size: 16px;
     color: #ffffff;
     background: transparent;
@@ -206,12 +293,46 @@ input[type="submit"]:hover {
 }
 
 input[type="checkbox"] {
-    margin-left: 10px;
+    margin-left: 10%;
     margin-right: 5px;
 }
 
 .subscribe-new-member {
-    font-family: "Anton", sans-serif;
+    font-family: "Source Sans Pro";
     font-size: 16px;
     color: #ffffff;
+}
+
+#new-member {
+    margin-left: 10px;
+}
+
+/* ////////////////////////////  G A L L A R Y ///////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+    .top-menu li {padding-right: 1.5rem;}
+    a {font-size:2rem;}
+    .left-sidebar-1{height:245px;}
+    .racing-cars{font-size:56px;line-height:55px;}
+    .cars{font-size:60px;}
+    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
+    .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
+    h2{line-height:20px;text-align:left;}
+    .left-sidebar-2{height:220px;border-top:5px solid black;}
+    form{display:block;margin: auto;}
+}
+
+@media screen and (max-width: 320px) {
+    body {min-height: 100vh;}
+    .top-menu {width:100%;height:2.5rem;}
+    .top-menu li {padding-right:15px;line-height:2.5rem;}
+     a:not(.footer-link) {font-size:1.5rem;}
+    .left-sidebar-1{height:245px;}
+    .racing-cars{font-size:56px;line-height:55px;}
+    .cars{font-size:60px;}
+    .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
+    .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
+     h2{line-height:20px;text-align:left;}
+    .left-sidebar-2{height:220px;border-top:5px solid black;}
+    form{display:block;margin:auto;}
 }
