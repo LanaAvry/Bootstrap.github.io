@@ -317,9 +317,10 @@ input[type="checkbox"] {
     .cars{font-size:60px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
     .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
-    h2{line-height:20px;text-align:left;}
+    h2{font-size:16px;line-height:18px;text-align:left;}
+    .black-word{color:white;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
-    form{display:block;margin: auto;}
+    form{display:block;margin: 0 auto;}
 }
 
 @media screen and (max-width: 320px) {
@@ -332,7 +333,8 @@ input[type="checkbox"] {
     .cars{font-size:60px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
     .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
-     h2{line-height:20px;text-align:left;}
+     h2{font-size:16px;line-height:18px;text-align:left;}
+         .black-word{color:white;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
-    form{display:block;margin:auto;}
+    form{display:block;margin: 0 auto;}
 }
