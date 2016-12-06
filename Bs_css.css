@@ -331,7 +331,7 @@ input[type="checkbox"] {
     .top-menu li {padding-right: 1.5rem;}
     a {font-size:2rem;}
     .left-sidebar-1{height:245px;}
-    h1{margin-top: 10px;}
+    h1{margin-top: -10px;}
     .racing-cars{font-size:56px;line-height:55px;}
     .cars{font-size:60px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
@@ -340,7 +340,7 @@ input[type="checkbox"] {
     .black-word{color:white;}
     .bold-word{font-size:20px;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
-    form{display:block;margin: 5px auto;}
+    form{display:block;margin: 0 auto;}
 }
 
 @media screen and (max-width: 320px) {
@@ -349,7 +349,7 @@ input[type="checkbox"] {
     .top-menu li {padding-right:15px;line-height:2.5rem;}
      a:not(.footer-link) {font-size:1.5rem;}
     .left-sidebar-1{height:245px;}
-     h1{margin-top: 10px;}
+     h1{margin-top: -10px;}
     .racing-cars{font-size:56px;line-height:55px;}
     .cars{font-size:60px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
@@ -358,5 +358,5 @@ input[type="checkbox"] {
          .black-word{color:white;}
          .bold-word{font-size:20px;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
-    form{display:block;margin: 5px auto;}
+    form{display:block;margin: 0 auto;}
 }
