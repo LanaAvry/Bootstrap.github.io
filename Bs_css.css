@@ -341,7 +341,7 @@ input[type="checkbox"] {
     .bold-word{font-size:20px;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
     #menu li a {font-size:22px;}
-    form{display:block;margin: 0 auto; padding-top: 10px;}
+    form{display:block;margin-top: 10px; margin-right: 10px;}
 }
 
 @media screen and (max-width: 320px) {
@@ -360,5 +360,5 @@ input[type="checkbox"] {
     .bold-word{font-size:20px;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
     #menu li a {font-size:22px;}
-    form{display:block;margin: 0 auto; padding-top: 10px;}
+    form{display:block;margin-top: 10px; margin-right: 10px;}
 }
