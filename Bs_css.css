@@ -62,7 +62,7 @@ li { list-style: none; }
     padding: 15px;
     border: 1px solid transparent;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 26px;
     color: #fff;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -74,7 +74,7 @@ li { list-style: none; }
  
 #menu li a i {
     margin-right: 5px;
-    font-size: 24px;
+    font-size: 34px;
 }
  
 #toggle-nav-label {
@@ -331,7 +331,7 @@ input[type="checkbox"] {
     .top-menu li {padding-right: 1.5rem;}
     a {font-size:2rem;}
     .left-sidebar-1{height:245px;}
-    h1{margin-top: -15px;}
+    h1{margin-top: -20px;}
     .racing-cars{font-size:56px;line-height:55px;}
     .cars{font-size:60px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
@@ -340,6 +340,7 @@ input[type="checkbox"] {
     .black-word{color:white;}
     .bold-word{font-size:20px;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
+    #menu li a {font-size:22px;}
     form{display:block;margin: 0 auto;}
 }
 
@@ -349,14 +350,15 @@ input[type="checkbox"] {
     .top-menu li {padding-right:15px;line-height:2.5rem;}
      a:not(.footer-link) {font-size:1.5rem;}
     .left-sidebar-1{height:245px;}
-     h1{margin-top: -15px;}
+     h1{margin-top: -20px;}
     .racing-cars{font-size:56px;line-height:55px;}
     .cars{font-size:60px;}
     .right-sidebar{border-top:5px dashed black;border-left:none;background-position:35% 50%;}
     .content{height:100%;border-right:5px dashed darkred;border-left:5px dashed darkred;border-top:5px dashed darkred;}
      h2{font-size:16px;line-height:18px;text-align:left;}
-         .black-word{color:white;}
-         .bold-word{font-size:20px;}
+    .black-word{color:white;}
+    .bold-word{font-size:20px;}
     .left-sidebar-2{height:220px;border-top:5px solid black;}
+    #menu li a {font-size:22px;}
     form{display:block;margin: 0 auto;}
 }
